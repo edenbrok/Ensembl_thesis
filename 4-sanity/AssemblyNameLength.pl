@@ -31,9 +31,7 @@ use strict;
 use warnings;
 
 use File::Spec;
-use Getopt::Long;
-
-use Carp;
+use Getopt::Long qw(:config pass_through);
 
 use Bio::EnsEMBL::Registry;
 use Bio::EnsEMBL::Utils::SqlHelper;
